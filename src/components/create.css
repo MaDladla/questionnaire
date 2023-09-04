@@ -1,0 +1,86 @@
+
+.dash__right{
+    /* position: absolute; */
+    margin-left: 25%;
+    width: 80%;
+    
+}
+.dash__right h1{
+    padding: 40px 0 0 300px ;   
+    }
+.right--create input{
+
+width:500px;
+height: 50px;
+margin-top: 20px;
+margin-left: 220px;
+outline: 0;
+background-color: white;
+border: none;
+font-size: 25px;
+}
+.right--create button{
+    margin-top: 30px;
+    margin-left: 400px;
+    width: 100px;
+    height: 40px;
+    border: none;
+   
+}
+.create--list{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 120px;
+    border-radius: 10px;
+    height: 70px;
+   width: 800px;
+    box-shadow: 4px 4px 25px -8px rgba(0,0,0,0.3);
+-webkit-box-shadow: 4px 4px 25px -8px rgba(0,0,0,0.3);
+-moz-box-shadow: 4px 4px 25px -8px rgba(0,0,0,0.3);
+background-color: rgba(33, 173, 164, 0.3);
+}
+.list--qstn{
+    width: 90%;
+    border-radius: 10px;
+  
+}
+.list--qstn p{
+    font-size: 20px;
+    padding-left: 15px;
+    color: rgb(57, 56, 56);
+    font-weight: bold;
+}
+.list--btn{
+    display: flex;
+}
+.list--btn button{
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(239, 231, 231,0);
+    border-radius: 10px;
+}
+
+.right--container button{
+
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(9, 117, 131);
+    font-size: 18px;
+    box-shadow: 4px 4px 25px -8px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 4px 4px 25px -8px rgba(0,0,0,0.3);
+    -moz-box-shadow: 4px 4px 25px -8px rgba(0,0,0,0.3);
+}
+
+
+
+

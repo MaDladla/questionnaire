@@ -1,0 +1,147 @@
+@import url("create.css");
+@import url("navbar.css");
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@700&family=Montserrat:ital,wght@1,300&family=Noto+Serif+TC:wght@200&family=Open+Sans:ital,wght@1,400;1,500&family=Playfair+Display:ital,wght@0,500;1,400&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@700&family=Montserrat:ital,wght@1,300&family=Noto+Sans&family=Noto+Serif+TC:wght@200&family=Open+Sans:ital,wght@1,400;1,500&family=Pacifico&family=Playfair+Display:ital,wght@0,500;1,400&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Inter:wght@700&family=Montserrat:ital,wght@1,300&family=Noto+Sans&family=Noto+Serif+TC:wght@200&family=Open+Sans:ital,wght@1,400;1,500&family=Pacifico&family=Playfair+Display:ital,wght@0,500;1,400&family=Roboto+Mono&family=Yeseva+One&display=swap');
+
+body{
+margin: 0;
+padding: 0;
+background-color: rgba(209, 239, 237, 0.3);
+/* font-family: 'Courgette', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Serif TC', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto Mono', monospace; */
+/* background-color: rgb(191, 216, 208); */
+
+font-family: 'Courgette', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Serif TC', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto Mono', monospace;
+font-family: 'Yeseva One', cursive;
+}
+.dashboard{
+
+    display: flex;
+    flex-direction: row;
+    /* margin: 15px; */
+    border-radius: 10px;
+    background-color: rgb(254, 252, 252,0);
+  
+}
+.dash__left{
+position: fixed;
+    width: 22%;
+    background-color: rgba(33, 173, 164, 0.3);
+    height: 100vh;
+    margin: 20px;
+    border-radius: 10px;
+}
+.logo label{
+    align-items: center;
+    position: absolute;
+    font-size: 100px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.logo h1{
+padding-top: 110px;
+padding-left: 180px;
+/* font-family: 'Courgette', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Serif TC', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto Mono', monospace; */
+}
+.left--buttons{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    
+}
+.left--buttons label{
+padding-top: 10px;
+padding-bottom: 40px;
+padding-left: 30px;
+margin-top: 10px;
+font-size: 30px;
+border: none;
+background-color: rgba(240, 241, 241, 0);
+vertical-align: left;
+}
+
+/* .active{
+    display: block;
+} */
+.dash__info{
+
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.dash__info .info{
+    width: 300px;
+    height: 110px;
+    background: rgb(161,226,222);
+background: linear-gradient(0deg, rgba(161,226,222,0.9753151260504201) 0%, rgba(79,204,198,0.9024859943977591) 47%, rgba(81,188,194,0.9669117647058824) 100%);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+/* .dash__info .info2{
+    background: rgb(240,8,95);
+    background: linear-gradient(90deg, rgba(240,8,95,1) 1%, rgba(233,39,205,0.811752188918937) 49%, rgba(187,57,209,0.9741453513120993) 92%);
+}
+.dash__info .info3{
+    background: rgb(6,233,162);
+    background: linear-gradient(0deg, rgba(6,233,162,1) 0%, rgba(5,62,62,0.375875350140056) 100%);
+}
+.dash__info .info4{
+    background: rgb(184,222,11);
+    background: linear-gradient(90deg, rgba(184,222,11,0.8972222743890225) 1%, rgba(233,205,39,1) 49%, rgba(209,57,57,0.9741453513120993) 92%);
+} */
+.dash__info .info p{
+   padding-left: 7px;
+   
+   color: white;
+   font-size: 18px;
+   font-weight: bold;
+}
+.dash__info .info h2{
+    padding-left: 7px;
+    /* padding-top: 2px; */
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+ }
+/* .right--container{
+
+    position: relative;
+    width: 80%;
+    height: 100%;
+    display: none;
+
+}
+.right--container.active{
+
+    position: relative;
+    width: 80%;
+    height: 100%;
+    display: block;
+
+} */
